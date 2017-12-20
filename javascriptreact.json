@@ -1,0 +1,57 @@
+{
+	"Console Log": {
+		"prefix": "log",
+		"body": "console.log($1);"
+	},
+	"React Native Component":{
+		"prefix": "rnc",
+		"body": [
+			"import React, { Component } from 'react';",
+			"import {",
+				"\tView,",
+				"\tText,",
+				"\tStyleSheet,",
+			"} from 'react-native';",
+			"\n",
+			"export default class ${1:Component} extends Component {",
+				"\trender() {",
+					"\t\treturn (",
+						"\t\t\t<View style={styles.container}>",
+							"\t\t\t\t<Text>I'm the ${1:Component} component</Text>",
+						"\t\t\t</View>",
+					"\t\t);",
+				"\t}",
+			"}",
+			"\n",
+			"const styles = StyleSheet.create({",
+				"\tcontainer: {",
+				  "\t\tflex: 1,",
+				  "\t\tjustifyContent: 'center',",
+				  "\t\talignItems: 'center',",
+				  "\t\tbackgroundColor: '#F5FCFF',",
+				"\t},",
+				"\twelcome: {",
+				  "\t\tfontSize: 20,",
+				  "\t\ttextAlign: 'center',",
+				  "\t\tmargin: 10,",
+				"\t},",
+				"\tinstructions: {",
+				  "\t\ttextAlign: 'center',",
+				  "\t\tcolor: '#333333',",
+				  "\t\tmarginBottom: 5,",
+				"\t},",
+			"});"
+
+		]
+	},
+	"For Loop": {
+        "prefix": "for",
+        "body": [
+            "for (var ${1:index} = 0; ${1:index} < ${2:array}.length; ${1:index}++) {",
+            "\tvar ${3:element} = ${2:array}[${1:index}];",
+            "\t$0",
+            "}"
+        ],
+        "description": "For Loop"
+    }
+}
