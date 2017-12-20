@@ -36,13 +36,13 @@ const styles = StyleSheet.create({
 ### Javascript
 #### [for] - Create a for loop
 ```javascript
-  console.log();
+    for (let index = 0; index < array.length; index++) {
+        let element = array[index];
+           
+    }
 ```
 
 #### [log] - Create console.log()
 ```javascript
-  for (let index = 0; index < array.length; index++) {
-    let element = array[index];
-            
-  }
+  console.log();
 ```
