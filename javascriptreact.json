@@ -29,17 +29,7 @@
 				  "\t\tjustifyContent: 'center',",
 				  "\t\talignItems: 'center',",
 				  "\t\tbackgroundColor: '#F5FCFF',",
-				"\t},",
-				"\twelcome: {",
-				  "\t\tfontSize: 20,",
-				  "\t\ttextAlign: 'center',",
-				  "\t\tmargin: 10,",
-				"\t},",
-				"\tinstructions: {",
-				  "\t\ttextAlign: 'center',",
-				  "\t\tcolor: '#333333',",
-				  "\t\tmarginBottom: 5,",
-				"\t},",
+				"\t}",
 			"});"
 
 		]
