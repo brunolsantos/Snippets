@@ -46,3 +46,33 @@ const styles = StyleSheet.create({
 ```javascript
   console.log();
 ```
+
+#### [view] - Create View tag
+```javascript
+  <View style={styles.StyleName}></View>
+```
+
+#### [text] - Create Text tag
+```javascript
+  <Text style={styles.StyleName}></Text>
+```
+
+#### [scroll] - Create ScrollView tag
+```javascript
+  <ScrollView style={styles.StyleName}></ScrollView>
+```
+
+#### [texti] - Create TextInput tag
+```javascript
+  <TextInput style={styles.StyleName}></TextInput>
+```
+
+#### [constr] - Create Constructor
+```javascript
+  constructor() {
+        super();
+        this.state = {
+        
+        };
+    }
+```
