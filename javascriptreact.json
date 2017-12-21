@@ -43,5 +43,36 @@
             "}"
         ],
         "description": "For Loop"
-    }
+    },
+	"Create View Tag": {
+		"prefix": "view",
+		"body": "<View style={style.${1:StyleName}}></View>"
+	},
+	"Create Text Tag": {
+		"prefix": "text",
+		"body": "<Text style={style.${1:StyleName}}></Text>"
+	},,
+	"Create View Tag": {
+		"prefix": "view",
+		"body": "<View style={style.${1:StyleName}}></View>"
+	},
+	"Create Text Tag": {
+		"prefix": "text",
+		"body": "<Text style={style.${1:StyleName}}></Text>"
+	},
+	"Create ScrollView Tag": {
+		"prefix": "scroll",
+		"body": "<ScrollView style={style.${1:StyleName}}></ScrollView>"
+	},
+	"Contructor Creator": {
+		"prefix": "constr",
+		"body": [
+			"constructor() {",
+				"\tsuper();",
+				"\tthis.state = {",
+					"\t",
+				"\t};",
+			"}"
+		]
+	}
 }
