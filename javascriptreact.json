@@ -51,7 +51,7 @@
 	"Create Text Tag": {
 		"prefix": "text",
 		"body": "<Text style={style.${1:StyleName}}></Text>"
-	},,
+	},
 	"Create View Tag": {
 		"prefix": "view",
 		"body": "<View style={style.${1:StyleName}}></View>"
