@@ -67,6 +67,13 @@ const styles = StyleSheet.create({
   <TextInput style={styles.StyleName}></TextInput>
 ```
 
+#### [texti] - Create imageBackground tag
+```javascript
+  <ImageBackground source={require('')}
+    style={styles.StyleName}
+  />
+```
+
 #### [constr] - Create Constructor
 ```javascript
   constructor() {
