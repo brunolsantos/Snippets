@@ -64,6 +64,14 @@
 		"prefix": "scroll",
 		"body": "<ScrollView style={style.${1:StyleName}}></ScrollView>"
 	},
+	"Create Image Tag": {
+		"prefix": "img",
+		"body": [
+			"<Image source={require('${1:}')}",
+				"\tstyle={styles.${2:StyleName}}",
+			"/>"
+		]
+	},
 	"Contructor Creator": {
 		"prefix": "constr",
 		"body": [
